@@ -2,11 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Layout from './Layout';
 import { BrowserRouter, Routes, Route, useNavigate, Link, Outlet } from 'react-router-dom';
-import Figma from './Figma';
-import Home from './Home';
-
-
-
+import Figma from './pages/Figma';
+import Home from './pages/Home';
 
 function App() {
 
@@ -28,8 +25,8 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Layout />} />
-          <Route index element={<Home />} />
+          {/* <Route path='/' element={<Layout />} /> */}
+          <Route path='/' index element={<Home />} />
           <Route path='/figma' element={<Figma />} />
         </Routes>
       </BrowserRouter>
