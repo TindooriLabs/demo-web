@@ -1,25 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
-
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import Layout from './Layout';
+import { BrowserRouter, Routes, Route, useNavigate, Link, Outlet } from 'react-router-dom';
 import Figma from './Figma';
+import Home from './Home';
+
+
 
 
 function App() {
 
+  /**
+   const navigate = useNavigate();
+  const showFigma = () => {
+    let path = '/figma';
+    navigate(path);
+  }
+  const goHome = () => {
+    let path = '/';
+    navigate(path);
+  }
+ 
+   */
+
   return (
     <>
-      <div className="App">
-        <h1> home page</h1>
 
-        <button>DEMO GO!</button>
-        <a href={<Figma/>}>figma</a>
-
-
-      </div>
-
-
- 
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout />} />
+          <Route index element={<Home />} />
+          <Route path='/figma' element={<Figma />} />
+        </Routes>
+      </BrowserRouter>
     </>
 
   );
