@@ -21,4 +21,10 @@
     --button-anchor-color-light: #4c3016;
     --button-anchor-color-hover: #f1bfa0;
     --button-anchor-border: 1px solid #8c633c;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#button-text {
+
+    padding-left: 10px;
 }
