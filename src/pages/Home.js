@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import transition from "../transition";
 import Button from "../components/Button";
 import "./Home.css"
 
@@ -7,7 +6,6 @@ import "./Home.css"
 const Home = () => {
     return (
         <div className='page-whole'>
-
             <div class="content">
                 <img class="App-logo" src="tindoori-logo.svg" alt="applogo" />
                 <br />
@@ -20,4 +18,4 @@ const Home = () => {
     );
 }
 
-export default transition(Home);
+export default Home;
