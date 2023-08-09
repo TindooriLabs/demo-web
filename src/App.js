@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Layout from './Layout';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Figma from './pages/Figma';
 import Home from './pages/Home';
@@ -12,9 +10,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <AnimatePresence mode='wait'>
+        <AnimatePresence mode="wait">
           <Routes>
-            {/* <Route path='/' element={<Layout />} /> */}
             <Route path='/' index element={<Home />} />
             <Route path='/figma' element={<Figma />} />
           </Routes>
