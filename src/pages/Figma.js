@@ -1,4 +1,6 @@
-function Figma() {
+import transition from "../transition";
+
+const Figma = () => {
     return (
         <>
             <div id="figma">
@@ -12,4 +14,4 @@ function Figma() {
 
 }
 
-export default Figma;
+export default transition(Figma);
