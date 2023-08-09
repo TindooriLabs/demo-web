@@ -8,17 +8,6 @@ import { AnimatePresence } from 'framer-motion';
 
 function App() {
 
-  /**
-   const navigate = useNavigate();
-  const showFigma = () => {
-    let path = '/figma';
-    navigate(path);
-  }
-  const goHome = () => {
-    let path = '/';
-    navigate(path);
-  }
-   */
 
   return (
     <>

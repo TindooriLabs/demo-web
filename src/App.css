@@ -3,13 +3,14 @@
 }
 
 .App-logo {
-  height: 40vmin;
+
+  height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -32,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -55,4 +57,14 @@
   height: 100vh;
   background: #0f0f0f;
   transform-origin: top;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+}
+
+#figma iframe{
+  width:99vw;
+  height:99vh;
 }
