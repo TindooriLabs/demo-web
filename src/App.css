@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -64,7 +65,7 @@
 
   #figma iframe {
     height: 99vh;
-    width: 40vw;
+    width: auto;
   }
 
   #figma {
@@ -80,7 +81,7 @@
     top: 40%;
     left: 1px;
     height: 5rem;
-    pointer-events:none;
+    pointer-events: none;
   }
 }
 
