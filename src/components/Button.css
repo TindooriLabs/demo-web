@@ -25,6 +25,13 @@
 }
 
 #button-text {
-
+    font-family: 'customFont', cursive;
+    font-weight: bolder;
+    color: aliceblue;
     padding-left: 10px;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url(Caveat-VariableFont_wght.ttf);
 }
