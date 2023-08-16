@@ -1,10 +1,8 @@
 import { BrowserRouter, Routes, Route, useNavigate, Link, Outlet } from 'react-router-dom';
-function Layout(){
+function Layout() {
     return (
         <>
             <nav>
-                SDFGUUIGF
-
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
@@ -12,6 +10,13 @@ function Layout(){
                     <li>
                         <Link to="/figma">Figma</Link>
                     </li>
+                    <li>
+                        <Link to="/mission">Mission</Link>
+                    </li>
+                    <li>
+                        <Link to="/future">Future</Link>
+                    </li>
+
                 </ul>
             </nav>
 

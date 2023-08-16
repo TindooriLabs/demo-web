@@ -28,7 +28,7 @@ const Home = () => {
                     } />
                 <br />
                 <Link to='/figma' >
-                    <Button />
+                    <Button text='Tindoori Demo' />
                 </Link>
             </div>
 
