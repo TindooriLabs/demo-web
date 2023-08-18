@@ -16,6 +16,7 @@ function Layout() {
                     <li>
                         <Link to="/future">Future</Link>
                     </li>
+                  
 
                 </ul>
             </nav>

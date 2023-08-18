@@ -4,6 +4,7 @@ import Figma from './pages/Figma';
 import Home from './pages/Home';
 import { AnimatePresence } from 'framer-motion';
 import Mission from './pages/Mission';
+import Future from './pages/Future';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' index element={<Home />} />
             <Route path='/figma' element={<Figma />} />
             <Route path='/mission' element={<Mission />} />
+            <Route path='/future' element={<Future />} />
           </Routes>
         </AnimatePresence>
       </BrowserRouter>
