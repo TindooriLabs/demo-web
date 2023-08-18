@@ -68,21 +68,6 @@
     width: auto;
   }
 
-  #figma {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .App-logo {
-    z-index: 10;
-    position: absolute;
-    top: 40%;
-    left: 1px;
-    height: 5rem;
-    pointer-events: none;
-  }
 }
 
 @media screen and (max-device-width:600px) {
