@@ -5,11 +5,6 @@ export default function Mission() {
         <>
             <div id="mission-container">
 
-
-
-
-
-                
                 <br />
                 <Link to='/future' >
                     <Button text="what is next?" />

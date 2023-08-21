@@ -4,10 +4,8 @@ import './Button.css'
 
 function Button(props) {
   return <AwesomeButton type="primary">
-    <a id='button-text'>{props.text}</a>
-
-
-  </AwesomeButton>;
+          <a id='button-text'>{props.text}</a>
+        </AwesomeButton>;
 }
 
 export default Button;
