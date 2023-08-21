@@ -61,7 +61,31 @@
   top: 40%;
 }
 
+#mission_text {
+  font-family: customFont;
+  margin: 10%;
+}
+
+@font-face {
+  font-family: customFont;
+  src: url(./components/Caveat-VariableFont_wght.ttf);
+}
+
+#mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission-container img {
+  width: 100%;
+  margin: 10%;
+}
+
 @media screen and (min-device-width:600px) {
+
+
 
   #figma iframe {
     height: 99vh;
