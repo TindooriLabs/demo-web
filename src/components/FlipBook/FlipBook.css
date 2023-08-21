@@ -1,0 +1,7 @@
+.demoPage {
+    background-color:azure;
+    backface-visibility: hidden; 
+    transform-origin: 0px 0px; 
+    clip-path: none;
+}
+

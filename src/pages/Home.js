@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
 import "./Home.css"
 import { motion } from "framer-motion";
 
@@ -12,7 +12,6 @@ const bounceTransition = {
 };
 
 const Home = () => {
-
 
     return (
         <div className='page-whole'>

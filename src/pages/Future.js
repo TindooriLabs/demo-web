@@ -1,6 +1,8 @@
-
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
+import FlipBook from "../components/FlipBook/FlipBook";
+
+
 export default function Future() {
     return (
         <>
@@ -9,6 +11,9 @@ export default function Future() {
             <br />
                 <img src="lead.svg" alt="arrow" />
             <br />
+
+            <FlipBook/>
+
 
             <Link to='/' >
                 <Button text="play again!" />
