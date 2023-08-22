@@ -85,13 +85,10 @@
 
 @media screen and (min-device-width:600px) {
 
-
-
   #figma iframe {
     height: 99vh;
     width: auto;
   }
-
 }
 
 @media screen and (max-device-width:600px) {
