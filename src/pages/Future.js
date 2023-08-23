@@ -7,13 +7,13 @@ export default function Future() {
     return (
         <>
             this is the limitation and solution page
-
             <br />
                 <img src="lead.svg" alt="arrow" />
             <br />
 
-            <FlipBook/>
-
+            <div>
+                <FlipBook/>
+            </div>
 
             <Link to='/' >
                 <Button text="play again!" />

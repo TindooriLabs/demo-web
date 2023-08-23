@@ -1,7 +1,16 @@
 .demoPage {
     background-color:azure;
-    backface-visibility: hidden; 
-    transform-origin: 0px 0px; 
+    backface-visibility: hidden;
+    transform-origin: 0px 0px;
     clip-path: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+    background-size: cover;
+
 }
 
+.blue-print {
+    /* display: flex; */
+    width: 92%;
+    height: 90%;
+    margin: 20px;
+}

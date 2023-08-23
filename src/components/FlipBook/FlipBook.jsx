@@ -5,8 +5,9 @@ import './FlipBook.css'
 const Page = React.forwardRef((props, ref) => {
     return (
         <div className="demoPage" ref={ref}>
-            <h1>Page Header</h1>
-            <p>{props.children}</p>
+            <img className='blue-print' src="blue-print.png"></img>
+            {/* <h1>Page Header</h1>
+            <p>{props.children}</p> */}
             <p>Page number: {props.number}</p>
         </div>
     );
@@ -15,11 +16,20 @@ const Page = React.forwardRef((props, ref) => {
 function FlipBook(props) {
     return (
         <HTMLFlipBook
-            width={300}
-            height={500}
+            width={550}
+            height={733}
+            size="stretch"
+            minWidth={315}
+            maxWidth={1000}
+            minHeight={400}
+            maxHeight={1533}
+            maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
-            maxShadowOpacity={0.5}
+            // onFlip={this.onPage}
+            // onChangeOrientation={this.onChangeOrientation}
+            // onChangeState={this.onChangeState}
+            // ref={(el) => (this.flipBook = el)}
         >
             <Page number="1">Page text</Page>
             <Page number="2">Page text</Page>
