@@ -1,16 +1,36 @@
-.demoPage {
+.demo-page {
     background-color:azure;
     backface-visibility: hidden;
     transform-origin: 0px 0px;
     clip-path: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.page-content img {
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
 
 }
 
-.blue-print {
-    /* display: flex; */
-    width: 92%;
+/* .blue-print {
+    width: 90%;
     height: 90%;
-    margin: 20px;
+    border: 10px
+} */
+
+.footer {
+    /* display: flex; */
+    border: 10px;
 }
