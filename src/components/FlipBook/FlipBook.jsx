@@ -18,20 +18,11 @@ const Page = React.forwardRef((props, ref) => {
 function FlipBook(props) {
     return (
         <HTMLFlipBook
-            width={500}
-            height={800}
-            // size="stretch"
-            // minWidth={315}
-            // maxWidth={1000}
-            // minHeight={400}
-            // maxHeight={1533}
+            width={window.innerWidth * 0.9}
+            height={window.innerWidth * 1.5}
             maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
-            // onFlip={this.onPage}
-            // onChangeOrientation={this.onChangeOrientation}
-            // onChangeState={this.onChangeState}
-            // ref={(el) => (this.flipBook = el)}
         >
             <Page number="1">Page text</Page>
             <Page number="2">Page text</Page>
