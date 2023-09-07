@@ -19,19 +19,14 @@
 }
 
 .page-content img {
-    margin-top: 20px;
+    margin-top: 4%;
     width: 90%;
     height: 90%;
 
 }
 
-/* .blue-print {
-    width: 90%;
-    height: 90%;
-    border: 10px
-} */
-
 .footer {
     /* display: flex; */
     border: 10px;
+    font-size: 5px;
 }

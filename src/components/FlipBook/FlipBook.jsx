@@ -18,8 +18,8 @@ const Page = React.forwardRef((props, ref) => {
 function FlipBook(props) {
     return (
         <HTMLFlipBook
-            width={window.innerWidth * 0.9}
-            height={window.innerWidth * 1.5}
+            width={window.innerWidth * 0.5}
+            height={window.innerWidth * 0.8}
             maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
